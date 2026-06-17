@@ -22,7 +22,7 @@ FUNBOX_URL = (
     "&sort_by=sell_from-desc"
 )
 
-ESLITE_SEARCH_URL = "https://www.eslite.com/Search?keyword=beyblade+x&final_price=0,&publishDate=0&sort=_weight_+desc&size=20&display=list&start=0&exp=c"
+ESLITE_SEARCH_URL = "https://www.eslite.com/Search?keyword=%22beyblade+x%22&final_price=0,&publishDate=0&sort=_weight_+desc&display=list&start=0&categories=[42773]&exp=c"
 
 STATE_FILE = os.path.join(os.path.dirname(__file__), "state.json")
 

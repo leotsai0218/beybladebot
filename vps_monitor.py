@@ -25,7 +25,7 @@ FUNBOX_URL = (
 )
 FUNBOX_INTERVAL = 20   # 每幾秒檢查一次（VPS 不怕被中斷，可以設快一點）
 
-ESLITE_SEARCH_URL = "https://www.eslite.com/Search?keyword=beyblade+x&final_price=0,&publishDate=0&sort=_weight_+desc&size=20&display=list&start=0&exp=c"
+ESLITE_SEARCH_URL = "https://www.eslite.com/Search?keyword=%22beyblade+x%22&final_price=0,&publishDate=0&sort=_weight_+desc&display=list&start=0&categories=[42773]&exp=c"
 ESLITE_INTERVAL   = 60  # 每幾秒掃一次（Playwright 開頁面較重，60 秒就夠快）
 # ============================================================
 
