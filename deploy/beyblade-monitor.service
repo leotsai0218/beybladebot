@@ -1,0 +1,16 @@
+[Unit]
+Description=Beyblade Monitor (Funbox + Eslite restock watcher)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/beyblade-monitor-cloud
+EnvironmentFile=/etc/beyblade-monitor/discord.env
+ExecStart=/home/ubuntu/beyblade-monitor-cloud/.venv/bin/python /home/ubuntu/beyblade-monitor-cloud/vps_monitor.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
