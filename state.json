@@ -1,9 +1,9 @@
 {
   "funbox_known_ids": [
-    "bbpr09652",
-    "bbpr94986"
+    "bbpr94986",
+    "bbpr09652"
   ],
   "funbox_initialized": true,
   "eslite_last_available_ids": [],
-  "eslite_initialized": false
+  "eslite_initialized": true
 }
