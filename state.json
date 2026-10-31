@@ -1,19 +1,16 @@
 {
   "funbox_known_ids": [
-    "bb08568",
-    "bbpr07730",
-    "bb09728",
-    "bbpr08914",
-    "bbpr07733",
     "bb08062",
+    "bbpr07739",
+    "bbpr07733",
+    "bb08568",
     "bb93948",
+    "bbpr07730",
     "bbpr07736",
-    "bbpr07739"
+    "bb09728",
+    "bbpr08914"
   ],
   "funbox_initialized": true,
-  "eslite_last_available_ids": [
-    "10042014802683118316003",
-    "10042014802683097804003"
-  ],
+  "eslite_last_available_ids": [],
   "eslite_initialized": true
 }
